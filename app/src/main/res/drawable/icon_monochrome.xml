@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- 「吃」字标：问号＋碗充当口字旁（1.4.4，方案 C） -->
+    <group android:pivotX="53" android:pivotY="52" android:scaleX="0.84" android:scaleY="0.84" android:translateX="2" android:translateY="2">
+        <group android:pivotX="54" android:pivotY="55" android:scaleX="0.72" android:scaleY="0.72" android:translateX="-17" android:translateY="-1">
+            <path android:pathData="M41,42a13,13 0 1 1 19.5,11.3c-4.6,2.6 -6.5,5.2 -6.5,9.2" android:strokeColor="#000000" android:strokeWidth="9" android:strokeLineCap="round" />
+            <path android:pathData="M40,70h28a14,14 0 0 1 -28,0z" android:fillColor="#000000" />
+        </group>
+        <path android:pathData="M63,30l-6,11h25" android:strokeColor="#000000" android:strokeWidth="6.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:pathData="M59,51h22l-17,14c-3,3 -1,8 4,8h16" android:strokeColor="#000000" android:strokeWidth="6.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    </group>
+</vector>

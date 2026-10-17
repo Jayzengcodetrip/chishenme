@@ -1,0 +1,684 @@
+{
+  "version": 2,
+  "groups": [
+    {
+      "id": "nutrition-01",
+      "scene": "takeout",
+      "zone": "nutrition",
+      "name": "赛百味",
+      "position": 0
+    },
+    {
+      "id": "nutrition-02",
+      "scene": "takeout",
+      "zone": "nutrition",
+      "name": "沙县鸡腿饭",
+      "position": 1
+    },
+    {
+      "id": "nutrition-03",
+      "scene": "takeout",
+      "zone": "nutrition",
+      "name": "潮汕牛肉汤饭",
+      "position": 2
+    },
+    {
+      "id": "nutrition-04",
+      "scene": "takeout",
+      "zone": "nutrition",
+      "name": "蛋白粉+农耕记米饭",
+      "position": 3
+    },
+    {
+      "id": "nutrition-05",
+      "scene": "takeout",
+      "zone": "nutrition",
+      "name": "霸碗盖码饭",
+      "position": 4
+    },
+    {
+      "id": "mood-01",
+      "scene": "takeout",
+      "zone": "mood",
+      "name": "米饭",
+      "position": 0
+    },
+    {
+      "id": "mood-02",
+      "scene": "takeout",
+      "zone": "mood",
+      "name": "面",
+      "position": 1
+    },
+    {
+      "id": "mood-03",
+      "scene": "takeout",
+      "zone": "mood",
+      "name": "粉",
+      "position": 2
+    },
+    {
+      "id": "mood-04",
+      "scene": "takeout",
+      "zone": "mood",
+      "name": "汉堡",
+      "position": 3
+    },
+    {
+      "id": "mood-05",
+      "scene": "takeout",
+      "zone": "mood",
+      "name": "麻辣烫",
+      "position": 4
+    },
+    {
+      "id": "mood-06",
+      "scene": "takeout",
+      "zone": "mood",
+      "name": "粥",
+      "position": 5
+    },
+    {
+      "id": "mood-07",
+      "scene": "takeout",
+      "zone": "mood",
+      "name": "饺子",
+      "position": 6
+    },
+    {
+      "id": "mood-08",
+      "scene": "takeout",
+      "zone": "mood",
+      "name": "披萨",
+      "position": 7
+    },
+    {
+      "id": "mood-09",
+      "scene": "takeout",
+      "zone": "mood",
+      "name": "其他",
+      "position": 8
+    },
+    {
+      "id": "dining-01",
+      "scene": "dining",
+      "zone": "dining",
+      "name": "全国连锁",
+      "position": 0
+    },
+    {
+      "id": "dining-02",
+      "scene": "dining",
+      "zone": "dining",
+      "name": "兴宁篇",
+      "position": 1
+    },
+    {
+      "id": "snacks-01",
+      "scene": "snacks",
+      "zone": "snacks",
+      "name": "吃",
+      "position": 0,
+      "systemKey": "food"
+    },
+    {
+      "id": "snacks-02",
+      "scene": "snacks",
+      "zone": "snacks",
+      "name": "喝",
+      "position": 1,
+      "systemKey": "drink"
+    }
+  ],
+  "items": [
+    {
+      "id": "mood-01-item-01",
+      "groupId": "mood-01",
+      "name": "紫燕百味鸡",
+      "notes": "",
+      "count": 0,
+      "position": 0,
+      "originalText": "紫燕百味鸡"
+    },
+    {
+      "id": "mood-01-item-02",
+      "groupId": "mood-01",
+      "name": "老乡鸡",
+      "notes": "",
+      "count": 0,
+      "position": 1,
+      "originalText": "老乡鸡"
+    },
+    {
+      "id": "mood-01-item-03",
+      "groupId": "mood-01",
+      "name": "霸碗盖码饭",
+      "notes": "",
+      "count": 0,
+      "position": 2,
+      "originalText": "霸碗盖码饭"
+    },
+    {
+      "id": "mood-01-item-04",
+      "groupId": "mood-01",
+      "name": "港式牛腩饭",
+      "notes": "",
+      "count": 0,
+      "position": 3,
+      "originalText": "港式牛腩饭"
+    },
+    {
+      "id": "mood-01-item-05",
+      "groupId": "mood-01",
+      "name": "鲫鱼汤饭",
+      "notes": "",
+      "count": 0,
+      "position": 4,
+      "originalText": "鲫鱼汤饭"
+    },
+    {
+      "id": "mood-01-item-06",
+      "groupId": "mood-01",
+      "name": "烧腊饭",
+      "notes": "",
+      "count": 0,
+      "position": 5,
+      "originalText": "烧腊饭"
+    },
+    {
+      "id": "mood-01-item-07",
+      "groupId": "mood-01",
+      "name": "蛋炒饭",
+      "notes": "（江味一派）",
+      "count": 0,
+      "position": 6,
+      "originalText": "蛋炒饭（江味一派）"
+    },
+    {
+      "id": "mood-01-item-08",
+      "groupId": "mood-01",
+      "name": "特色炒饭",
+      "notes": "（江味一派）",
+      "count": 0,
+      "position": 7,
+      "originalText": "特色炒饭（江味一派）"
+    },
+    {
+      "id": "mood-01-item-09",
+      "groupId": "mood-01",
+      "name": "鱼腩饭",
+      "notes": "（江味一派，等很久）",
+      "count": 0,
+      "position": 8,
+      "originalText": "鱼腩饭（江味一派，等很久）"
+    },
+    {
+      "id": "mood-01-item-10",
+      "groupId": "mood-01",
+      "name": "塑金咖喱饭",
+      "notes": "",
+      "count": 0,
+      "position": 9,
+      "originalText": "塑金咖喱饭"
+    },
+    {
+      "id": "mood-02-item-01",
+      "groupId": "mood-02",
+      "name": "辛拉面",
+      "notes": "（要自己煮麻烦）",
+      "count": 0,
+      "position": 0,
+      "originalText": "辛拉面（要自己煮麻烦）"
+    },
+    {
+      "id": "mood-02-item-02",
+      "groupId": "mood-02",
+      "name": "兰州拉面",
+      "notes": "（外卖会坨）",
+      "count": 0,
+      "position": 1,
+      "originalText": "兰州拉面（外卖会坨）"
+    },
+    {
+      "id": "mood-02-item-03",
+      "groupId": "mood-02",
+      "name": "兰州炒面",
+      "notes": "",
+      "count": 0,
+      "position": 2,
+      "originalText": "兰州炒面"
+    },
+    {
+      "id": "mood-02-item-04",
+      "groupId": "mood-02",
+      "name": "腌面",
+      "notes": "（江味一派）（外卖会坨）",
+      "count": 0,
+      "position": 3,
+      "originalText": "腌面（江味一派）（外卖会坨）"
+    },
+    {
+      "id": "mood-02-item-05",
+      "groupId": "mood-02",
+      "name": "老碗会",
+      "notes": "（外卖不好吃，千万别点）",
+      "count": 0,
+      "position": 4,
+      "originalText": "老碗会（外卖不好吃，千万别点）"
+    },
+    {
+      "id": "mood-02-item-06",
+      "groupId": "mood-02",
+      "name": "汤面",
+      "notes": "",
+      "count": 0,
+      "position": 5,
+      "originalText": "汤面"
+    },
+    {
+      "id": "mood-03-item-01",
+      "groupId": "mood-03",
+      "name": "烧烤店炒粉+凉菜",
+      "notes": "",
+      "count": 0,
+      "position": 0,
+      "originalText": "烧烤店炒粉+凉菜"
+    },
+    {
+      "id": "mood-03-item-02",
+      "groupId": "mood-03",
+      "name": "汤粉",
+      "notes": "",
+      "count": 0,
+      "position": 1,
+      "originalText": "汤粉"
+    },
+    {
+      "id": "mood-03-item-03",
+      "groupId": "mood-03",
+      "name": "三两粉",
+      "notes": "",
+      "count": 0,
+      "position": 2,
+      "originalText": "三两粉"
+    },
+    {
+      "id": "mood-03-item-04",
+      "groupId": "mood-03",
+      "name": "老友粉",
+      "notes": "",
+      "count": 0,
+      "position": 3,
+      "originalText": "老友粉"
+    },
+    {
+      "id": "mood-03-item-05",
+      "groupId": "mood-03",
+      "name": "螺蛳粉",
+      "notes": "",
+      "count": 0,
+      "position": 4,
+      "originalText": "螺蛳粉"
+    },
+    {
+      "id": "mood-04-item-01",
+      "groupId": "mood-04",
+      "name": "麦当劳",
+      "notes": "（薯条）",
+      "count": 0,
+      "position": 0,
+      "originalText": "麦当劳（薯条）"
+    },
+    {
+      "id": "mood-04-item-02",
+      "groupId": "mood-04",
+      "name": "塔斯汀",
+      "notes": "（不要鸭肉）",
+      "count": 0,
+      "position": 1,
+      "originalText": "塔斯汀（不要鸭肉）"
+    },
+    {
+      "id": "mood-04-item-03",
+      "groupId": "mood-04",
+      "name": "必胜客",
+      "notes": "",
+      "count": 0,
+      "position": 2,
+      "originalText": "必胜客"
+    },
+    {
+      "id": "mood-05-item-01",
+      "groupId": "mood-05",
+      "name": "砂锅",
+      "notes": "",
+      "count": 0,
+      "position": 0,
+      "originalText": "砂锅"
+    },
+    {
+      "id": "mood-05-item-02",
+      "groupId": "mood-05",
+      "name": "重庆",
+      "notes": "",
+      "count": 0,
+      "position": 1,
+      "originalText": "重庆"
+    },
+    {
+      "id": "mood-06-item-01",
+      "groupId": "mood-06",
+      "name": "汕头鱼粥",
+      "notes": "",
+      "count": 0,
+      "position": 0,
+      "originalText": "汕头鱼粥"
+    },
+    {
+      "id": "mood-06-item-02",
+      "groupId": "mood-06",
+      "name": "广州粥",
+      "notes": "",
+      "count": 0,
+      "position": 1,
+      "originalText": "广州粥"
+    },
+    {
+      "id": "mood-07-item-01",
+      "groupId": "mood-07",
+      "name": "袁记云饺",
+      "notes": "",
+      "count": 0,
+      "position": 0,
+      "originalText": "袁记云饺"
+    },
+    {
+      "id": "mood-08-item-01",
+      "groupId": "mood-08",
+      "name": "达美乐",
+      "notes": "",
+      "count": 0,
+      "position": 0,
+      "originalText": "达美乐"
+    },
+    {
+      "id": "mood-09-item-01",
+      "groupId": "mood-09",
+      "name": "窑鸡王",
+      "notes": "",
+      "count": 0,
+      "position": 0,
+      "originalText": "窑鸡王"
+    },
+    {
+      "id": "mood-09-item-02",
+      "groupId": "mood-09",
+      "name": "汤",
+      "notes": "（粤金府）",
+      "count": 0,
+      "position": 1,
+      "originalText": "汤（粤金府）"
+    },
+    {
+      "id": "mood-09-item-03",
+      "groupId": "mood-09",
+      "name": "小笼包",
+      "notes": "",
+      "count": 0,
+      "position": 2,
+      "originalText": "小笼包"
+    },
+    {
+      "id": "mood-09-item-04",
+      "groupId": "mood-09",
+      "name": "豆浆油条",
+      "notes": "",
+      "count": 0,
+      "position": 3,
+      "originalText": "豆浆油条"
+    },
+    {
+      "id": "dining-01-item-01",
+      "groupId": "dining-01",
+      "name": "费大厨",
+      "notes": "",
+      "count": 0,
+      "position": 0,
+      "originalText": "费大厨"
+    },
+    {
+      "id": "dining-01-item-02",
+      "groupId": "dining-01",
+      "name": "八合里",
+      "notes": "（三花趾、吊龙伴、匙肉、牛肉丸）",
+      "count": 0,
+      "position": 1,
+      "originalText": "八合里（三花趾、吊龙伴、匙肉、牛肉丸）"
+    },
+    {
+      "id": "dining-01-item-03",
+      "groupId": "dining-01",
+      "name": "探鱼",
+      "notes": "（糍粑）",
+      "count": 0,
+      "position": 2,
+      "originalText": "探鱼（糍粑）"
+    },
+    {
+      "id": "dining-01-item-04",
+      "groupId": "dining-01",
+      "name": "渝月",
+      "notes": "",
+      "count": 0,
+      "position": 3,
+      "originalText": "渝月"
+    },
+    {
+      "id": "dining-01-item-05",
+      "groupId": "dining-01",
+      "name": "点都德",
+      "notes": "（广州和兴楼）",
+      "count": 0,
+      "position": 4,
+      "originalText": "点都德（广州和兴楼）"
+    },
+    {
+      "id": "dining-01-item-06",
+      "groupId": "dining-01",
+      "name": "海底捞大排档",
+      "notes": "",
+      "count": 0,
+      "position": 5,
+      "originalText": "海底捞大排档"
+    },
+    {
+      "id": "dining-01-item-07",
+      "groupId": "dining-01",
+      "name": "蛙来哒",
+      "notes": "",
+      "count": 0,
+      "position": 6,
+      "originalText": "蛙来哒"
+    },
+    {
+      "id": "dining-01-item-08",
+      "groupId": "dining-01",
+      "name": "繁楼",
+      "notes": "（南山南油店：虾饺、叉烧包、榴莲酥、肠粉，其他再试试）",
+      "count": 0,
+      "position": 7,
+      "originalText": "繁楼（南山南油店：虾饺、叉烧包、榴莲酥、肠粉，其他再试试）"
+    },
+    {
+      "id": "dining-02-item-01",
+      "groupId": "dining-02",
+      "name": "阿何快餐",
+      "notes": "",
+      "count": 0,
+      "position": 0,
+      "originalText": "阿何快餐"
+    },
+    {
+      "id": "dining-02-item-02",
+      "groupId": "dining-02",
+      "name": "老站饭店",
+      "notes": "",
+      "count": 0,
+      "position": 1,
+      "originalText": "老站饭店"
+    },
+    {
+      "id": "dining-02-item-03",
+      "groupId": "dining-02",
+      "name": "猪红",
+      "notes": "",
+      "count": 0,
+      "position": 2,
+      "originalText": "猪红"
+    },
+    {
+      "id": "dining-02-item-04",
+      "groupId": "dining-02",
+      "name": "腌面",
+      "notes": "",
+      "count": 0,
+      "position": 3,
+      "originalText": "腌面"
+    },
+    {
+      "id": "snacks-01-item-01",
+      "groupId": "snacks-01",
+      "name": "麻辣烫",
+      "notes": "",
+      "count": 0,
+      "position": 0,
+      "originalText": "麻辣烫"
+    },
+    {
+      "id": "snacks-01-item-02",
+      "groupId": "snacks-01",
+      "name": "水果",
+      "notes": "",
+      "count": 0,
+      "position": 1,
+      "originalText": "水果"
+    },
+    {
+      "id": "snacks-01-item-03",
+      "groupId": "snacks-01",
+      "name": "鸡柳大人",
+      "notes": "",
+      "count": 0,
+      "position": 2,
+      "originalText": "鸡柳大人"
+    },
+    {
+      "id": "snacks-01-item-04",
+      "groupId": "snacks-01",
+      "name": "绝味鸭脖",
+      "notes": "",
+      "count": 0,
+      "position": 3,
+      "originalText": "绝味鸭脖"
+    },
+    {
+      "id": "snacks-01-item-05",
+      "groupId": "snacks-01",
+      "name": "沃尔玛 咸奶油泡芙",
+      "notes": "",
+      "count": 0,
+      "position": 4,
+      "originalText": "沃尔玛 咸奶油泡芙"
+    },
+    {
+      "id": "snacks-01-item-06",
+      "groupId": "snacks-01",
+      "name": "烧烤",
+      "notes": "",
+      "count": 0,
+      "position": 5,
+      "originalText": "烧烤"
+    },
+    {
+      "id": "snacks-01-item-07",
+      "groupId": "snacks-01",
+      "name": "糖水",
+      "notes": "",
+      "count": 0,
+      "position": 6,
+      "originalText": "糖水"
+    },
+    {
+      "id": "snacks-02-item-01",
+      "groupId": "snacks-02",
+      "name": "煲珠公水牛奶",
+      "notes": "",
+      "count": 0,
+      "position": 0,
+      "originalText": "煲珠公水牛奶"
+    },
+    {
+      "id": "snacks-02-item-02",
+      "groupId": "snacks-02",
+      "name": "喜茶",
+      "notes": "",
+      "count": 0,
+      "position": 1,
+      "originalText": "喜茶"
+    },
+    {
+      "id": "snacks-02-item-03",
+      "groupId": "snacks-02",
+      "name": "星巴克",
+      "notes": "",
+      "count": 0,
+      "position": 2,
+      "originalText": "星巴克"
+    },
+    {
+      "id": "snacks-02-item-04",
+      "groupId": "snacks-02",
+      "name": "瑞幸咖啡",
+      "notes": "",
+      "count": 0,
+      "position": 3,
+      "originalText": "瑞幸咖啡"
+    },
+    {
+      "id": "snacks-02-item-05",
+      "groupId": "snacks-02",
+      "name": "蜜雪冰城",
+      "notes": "",
+      "count": 0,
+      "position": 4,
+      "originalText": "蜜雪冰城"
+    },
+    {
+      "id": "snacks-02-item-06",
+      "groupId": "snacks-02",
+      "name": "丘大叔",
+      "notes": "",
+      "count": 0,
+      "position": 5,
+      "originalText": "丘大叔"
+    },
+    {
+      "id": "snacks-02-item-07",
+      "groupId": "snacks-02",
+      "name": "霸王茶姬",
+      "notes": "",
+      "count": 0,
+      "position": 6,
+      "originalText": "霸王茶姬"
+    },
+    {
+      "id": "snacks-02-item-08",
+      "groupId": "snacks-02",
+      "name": "柠檬茶",
+      "notes": "",
+      "count": 0,
+      "position": 7,
+      "originalText": "柠檬茶"
+    }
+  ]
+}

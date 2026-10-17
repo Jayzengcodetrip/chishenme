@@ -1,0 +1,27 @@
+.gradle/
+.idea/
+**/build/
+local.properties
+.signing/
+*.iml
+.DS_Store
+.kotlin/
+.cxx/
+.externalNativeBuild/
+.env
+.env.*
+*.jks
+*.keystore
+keystore.properties
+*.apk
+*.aab
+*.apks
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.zip
+# Private reference photos are not part of the application.
+docs/reference/
